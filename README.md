@@ -1,57 +1,17 @@
-# final-project
+Theme of the Project: Car Dictionary
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
 
-## Prerequisites
 
-You will need the following things properly installed on your computer.
+1. What problem are you trying to solve?
+  To educate more of those who know nothing about cars and let them have a impression of what cars are about
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
 
-## Installation
+2. Who is the primary audience
+  The primary audience would be high school kids college students who know little about cars but are interested in such fields.
 
-* `git clone <repository-url>` this repository
-* `cd final-project`
-* `npm install`
+3. How will the project requirements be fullfilled?
+  The Car disctionary will have full CRUD functionalities, the user would be able to delete/add/edit/read individual entries of the dictionary. The properties of each car entry would be something like gas mileage, number of cylinders, power model and so on. There will be validation of the code using javascript.Bootstrap will be used to keep the page clear, organized and presentable to the user. The ember-moment add-on will be used to format the release-year and model-year properties.
 
-## Running / Development
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
-
-### Code Generators
-
-Make use of the many generators for code, try `ember help generate` for more details
-
-### Running Tests
-
-* `ember test`
-* `ember test --server`
-
-### Linting
-
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
+4. Which addon(s) do you think you will use and for what? Explore Ember addons at Ember Observer.
+  The ember-moment add-on will be used to format the release-year properties. Maybe ember/test-helper will also be used to help with tests that is required in the instruction.
